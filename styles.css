@@ -1,0 +1,61 @@
+/* Element Selector */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+/* Class Selector */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.highlight {
+    background-color: #fff9e6;
+    padding: 15px;
+    border-left: 4px solid #ffd700;
+    margin: 20px 0;
+}
+
+/* ID Selector */
+#main-image {
+    border: 3px solid #333;
+    border-radius: 8px;
+    margin: 20px auto;
+    display: block;
+    max-width: 100%;
+    padding: 5px;
+}
+
+/* Combined Selectors */
+header h1 {
+    font-family: 'Playfair Display', serif;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.article {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.intro {
+    font-size: 1.1em;
+    color: #2c3e50;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Responsive Image */
+img {
+    max-width: 100%;
+    height: 400px;
+}
